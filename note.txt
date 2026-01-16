@@ -1,0 +1,33 @@
+1st task: system call 
+will use system calls such as fork, getpid, and wait
+expected output
+create a process, fork it to get two processid
+parent create a child to get a pid. but there should be 4 children created from the parent of the previous child
+parent1=>child1
+child1=parent2
+parent2=>child2
+child2=parent3
+parent3=>child4
+child4=parent4
+there should be 5 parent pid printed from different child
+wait for the last child before printing the previous child
+note: last child should have its pid printed first
+
+2nd task: create a first come first serve scheduling but with 10 processes
+burst times: 9, 8, 7, 8, 7, 8, 2, 1, 2, 5
+add arrival time: kahit ano--pwedeng nakainput na, pwedeng di na
+lagyan table, avg wt, avg tt.
+
+3rd task: there should be 6 elements
+burst times:99.99, 107.9, 143.77, 20.24, 50.55, 66.66
+Shortest Job first
+
+4th task: same burst time as 3rd task BUT quantum time is 25. add a gantt chart
+
+
+
+
+
+
+
+
